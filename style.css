@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.header{
+    margin-top: 40px;
+}
+.profilepic{
+    width:100px;
+    height:100px;
+    border-radius: 16px;
+}
+h2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 0px;
+}
+h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #A9A9A9;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width:75px;
+    height: 50px;
+    margin:20px;
+    margin-top:0px;
+    background-color: #E5E5E5;
+    border-radius: 12px;
+}
+.card h3{
+    font-size: 11px;
+    margin-top:0px;
+}
+.card h2{
+    font-size:16px;
+    margin-bottom:0px;
+}
+.galleryblock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#img1{
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 260px;
+    top: 400px;
+    border-radius: 12px;
+}
+#img2{
+    position: absolute;
+    width: 529px;
+    height: 199px;
+    left: 569px;
+    top: 400px;
+    border-radius: 12px;
+}
+#img3{
+    position: absolute;
+    width: 527px;
+    height: 199px;
+    left: 260px;
+    top: 672px;
+  
+    border-radius: 12px;
+}
+#img4{
+    position: absolute;
+    width: 197px;
+    height: 430px;
+    left: 901px;
+    top: 672px;
+    border-radius: 12px;
+}
+#img5{
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 260px;
+    top: 903px;
+    bottom:10px;
+    border-radius: 12px;
+}
+#img6{
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 550px;
+    top: 903px;
+    bottom:10px;
+    border-radius: 12px;
+}
+footer{
+    display: block;
+    margin-top: 0px;
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight:bolder;
+    color: #A9A9A9;
+}
+.gallery :hover{
+    transform: scale(1.2);
+}
